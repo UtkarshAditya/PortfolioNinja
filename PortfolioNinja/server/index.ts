@@ -68,3 +68,8 @@ app.use((req, res, next) => {
     log(`serving on port ${port}`);
   });
 })();
+
+
+// Export the Express app as a serverless function
+export default app;
+
